@@ -1,3 +1,5 @@
+@import '../../assets/variables.scss';
+
 .main {
     width: 100vw;
     height: 100vh;
@@ -8,6 +10,7 @@
     grid-template-areas:       
     "body body body body"
     "body body body body"
+    "body body body body"    
     "footer footer footer footer";    
 }
 
@@ -23,6 +26,11 @@
 
 .icon {
     height: 25px;    
+}
+
+.icon-small{
+    height: 18px;
+    margin-right:5px;
 }
 
 .body > * {
@@ -42,6 +50,9 @@
     font-size: 4em;
     text-align: center;
     text-shadow: 0.01em 0.01em 0.01em grey;
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.3em;
+    font-weight: lighter;
     
 }
 
@@ -59,17 +70,21 @@
     color:#D1D2D3;
     border-top: 1pt solid black;
     border-bottom: 1pt solid black;
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.1em;
+    font-weight: lighter;
 }
 
 .superTitle{
     text-shadow: 0.01em 0.01em 0.01em grey;
     color:white;
-    font-size: 5rem;
+    font-family: 'Avant Garde';
+    font-size: 5.5rem;
 }
 
 .vertical-ligths {
-    border-left: 1pt dotted #0a9fa8e6;
-    border-right: 1pt dotted #0a9fa8e6;
+    border-left: 2pt dotted #0a9fa8e6;
+    border-right: 2pt dotted #0a9fa8e6;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -81,11 +96,39 @@ ul {
 }
 
 li {
-    margin-top:5px;
+    margin-top:10px;
+    font-family: 'Avant Garde'
+    
 }
 
 .boxed-picture {
     max-width: 200px;
     max-height: 200px;
     border:1pt solid white;
+}
+
+.mini-header {
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+    color:$MAIN-COLOR;
+    font-size: 1.5em;
+}
+
+p{
+    font-family:'Avant Garde 45W';    
+}
+
+.map-footer {
+    background: url(../../assets/images/map-location.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    width:100%;
+    margin: 10px;    
+}
+
+.inside-footer {
+    border-top: 2pt dotted #0a9fa8e6;
+    padding:20px;
 }

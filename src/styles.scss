@@ -1,3 +1,59 @@
+
+@import './assets/variables.scss';
+/*PAGE HEADERS / LOGO
+FONT: ITC Avant Garde Gothic - Book
+TRACKING: 250
+SIZE: 40 pt (Reduce size for Logo)*/
+
+@font-face {
+    font-family: "Avant Garde";
+    src: url('./assets/Fonts/avgdb.ttf');
+}
+
+@font-face {
+    font-family: "Avant Garde 45W";
+    src: url('./assets/Fonts/avgr45w.ttf');
+}
+
+@font-face {
+    font-family: "Avant Garde ITC";
+    src: url('./assets/Fonts/avgr45w.ttf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/Fonts/itc-avant-garde.woff');
+    
+    }
+
+    .primary-color{
+        color:$MAIN-COLOR;
+    }
+
+    .dark-color{
+        color:$DARK-GREY;
+    }
+
+    .medium-color{
+        color:$MEDIUM-GREY;
+    }
+
+    .light-color{
+        color:$LIGHT-GREY;
+    }
+
+    .vert-light-color{
+        color:$VERY-LIGHT-GREY;
+    }
+
+    .primary-bg-color{
+        background: $MAIN-COLOR;
+    }
+
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0;
@@ -58,6 +114,14 @@ body {
     margin-top:20px;
 }
 
+.mt-10 {
+    margin-top:10px;
+}
+
+.mt-5 {
+    margin-top:5px;
+}
+
 .mr-10 {
     margin-right: 10px;
 }
@@ -80,4 +144,35 @@ body {
 
 .align-text-center {
     text-align: center;
+}
+.avg {
+    font-family: 'Avant Garde';
+}
+
+.itc {
+    font-family: 'ITC Avant Garde';
+}
+
+.avg45 {
+    font-family: 'Avant Garde 45W';
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.button{
+    background: $MAIN-COLOR;
+    color:white;    
+}
+
+.button:hover{
+    background: #026e74;
+    color:white;
+}
+
+.button:focus{
+    background: $MAIN-COLOR;
+    color:white;
+    outline: none;
 }
