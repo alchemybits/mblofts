@@ -1,0 +1,59 @@
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 2 auto;
+}
+
+@import '../../assets/variables.scss';
+
+%dark {
+    background:black !important;
+    color:white !important;   
+}
+
+.mini-header {
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+    color:$MAIN-COLOR;
+    font-size: 1em;
+}
+
+.top-menu-buttons {
+    font-size: .8em;
+    cursor: pointer;
+    height: 100%;
+    padding: 10px;
+}
+
+.top-menu-buttons:hover {
+    @extend %dark;
+}
+
+.top-menu-buttons:focus{
+    outline: 0;
+}
+
+.mat-menu-dark {
+    @extend %dark;
+    background:black !important;
+    color:white !important;   
+}
+
+.mat-menu-panel .ng-trigger .ng-trigger-transformMenu .ng-tns-c5-0 .mat-menu-dark .mat-menu-after .mat-menu-below .mat-elevation-z4 .ng-star-inserted {
+    @extend %dark;
+}
+
+mat-toolbar {
+    background:white;
+}
+
+.mat-menu-panel {
+    background-color: 'red' !important;
+}
+
+::ng-deep .customize {
+    background: black;
+    color: white;
+  }
+

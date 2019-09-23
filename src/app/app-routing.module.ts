@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: UnderConstructionComponent
-  }
+    component: HomeComponent
+  },
+  { path: '**', component: UnderConstructionComponent }
 ];
 
 @NgModule({

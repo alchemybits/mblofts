@@ -1,0 +1,37 @@
+@import '../../assets/variables.scss';
+
+.features-details {
+    background: $DARK-GREY;
+    width:100%;
+    padding: 50px 0px 20px 0px;
+}
+
+.features-details > *{
+    color: $VERY-LIGHT-GREY;
+}
+
+.sub-title-f {
+    color: $VERY-LIGHT-GREY;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li{
+    font-size: .8rem;
+}
+
+ul li::before {
+    content: "\2022";
+    color: $MAIN-COLOR;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+
+  }
+
