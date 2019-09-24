@@ -12,4 +12,8 @@ export class TopBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  showMenu() {
+    console.log('yei');
+  }
+
 }

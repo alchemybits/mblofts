@@ -3,29 +3,42 @@
             <span class="mini-header">MANHATTAN BEACH LOFTS</span>
             <!-- This fills the remaining space of the current row -->
             <span class="example-fill-remaining-space"></span>
-            <mat-menu class="customize" #appMenu="matMenu">
-                <button mat-menu-item class="customize">102</button>
-                <button mat-menu-item class="customize">103</button>
-                <button mat-menu-item class="customize">104</button>
-                <button mat-menu-item class="customize">105</button>
-                <button mat-menu-item class="customize">106</button>
-                <button mat-menu-item class="customize">107</button>
-                
-            </mat-menu>
+            <div>
+                <nav class="dropdownmenu">
+                    <ul>
+                      <li><a href="" class="top-menu-buttons">HOME</a></li>                      
+                      <li><a href="#" class="top-menu-buttons">LOFTS</a>
+                        <ul id="submenu">
+                          <li><a href="">105</a></li>
+                          <li><a href="">106</a></li>
+                          <li><a href="">107</a></li>
+                          <li><a href="">108</a></li>
+                          <li><a href="">109</a></li>
+                          <li><a href="">201</a></li>
+                          <li><a href="">202</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="" class="top-menu-buttons">LYFESTYLE</a></li>
+                      <li><a href="" class="top-menu-buttons">CONTACT</a></li>
+                    </ul>
+                  </nav>
+            </div>
                 
             
-            <button class="m-5 top-menu-buttons" mat-icon-button [matMenuTriggerFor]="">
+            <!-- <button class="m-5 top-menu-buttons" mat-icon-button>
                 HOME
             </button>
-            <button class="m-5 top-menu-buttons" mat-icon-button [matMenuTriggerFor]="appMenu">
+            <button class="m-5 top-menu-buttons loftsMenu" (mouseover)="showMenu()" mat-icon-button [matMenuTriggerFor]="appMenu">
                 LOFTS
             </button>
-            <button class="m-5 top-menu-buttons" mat-icon-button [matMenuTriggerFor]="">
+            
+            <button class="m-5 top-menu-buttons" mat-icon-button>
                 LYFESTYLE
             </button>
-            <button class="m-5 top-menu-buttons" mat-icon-button [matMenuTriggerFor]="">
+            <button class="m-5 top-menu-buttons" mat-icon-button>
                 CONTACT
-            </button>
+            </button> -->
                         
         </mat-toolbar-row>
 </mat-toolbar>
+
