@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
+import { LoftComponent } from './loft/loft.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    LoftComponent
   ],
   imports: [
     BrowserModule,
