@@ -1,0 +1,16 @@
+@import '../../assets/variables.scss';
+
+.availability {    
+    width:100%;
+    padding: 50px 0px 20px 0px;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+}
+
+.boxed-img {    
+    margin:5px;
+    border: 1pt solid $MAIN-COLOR;
+    padding: 5px;
+}

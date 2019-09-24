@@ -1,0 +1,131 @@
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 2 auto;
+}
+
+@import '../../assets/variables.scss';
+
+%dark {
+    background:black !important;
+    color:white !important;   
+}
+
+.mini-header {
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+    color:$MAIN-COLOR;
+    font-size: 1em;
+}
+
+.top-menu-buttons {
+    font-size: .8em;
+    cursor: pointer;
+    height: 100%;
+    padding: 10px;
+}
+
+.top-menu-buttons:hover {
+    @extend %dark;
+}
+
+.top-menu-buttons:focus{
+    outline: 0;
+}
+
+.mat-menu-dark {
+    @extend %dark;
+    background:black !important;
+    color:white !important;   
+}
+
+.mat-menu-panel .ng-trigger .ng-trigger-transformMenu .ng-tns-c5-0 .mat-menu-dark .mat-menu-after .mat-menu-below .mat-elevation-z4 .ng-star-inserted {
+    @extend %dark;
+}
+
+mat-toolbar {
+    background:white;
+}
+
+.mat-menu-panel {
+    background-color: 'red' !important;
+}
+
+::ng-deep .customize {
+    background: black;
+    color: white;
+}
+
+.loftsMenu {
+    position: relative;
+    width:70px;
+    position: 0;
+}
+
+.loftsMenu::after{
+    content: "";
+    position: relative;
+    top:20px;    
+    width: 500px;
+    height: 500px;
+    background:black;
+    display: block;
+}
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: $DARK_GREY;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	display: block;	
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+    transition: all .25s ease;
+    color: $DARK_GREY;
+}
+.dropdownmenu li:hover a {
+    background: #000000;
+    color: white;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+    background: $VERY-LIGHT-GREY;
+    color: black;
+}
+#submenu a {
+	background-color:#000000;
+}
+
+

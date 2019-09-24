@@ -126,6 +126,14 @@ body {
     margin-right: 10px;
 }
 
+.m-5 {
+    margin:5px;
+}
+
+.m-10 {
+    margin:10px;
+}
+
 .mr-20 {
     margin-right: 20px;
 }
@@ -179,4 +187,26 @@ body {
 
 .flex-wrap{
     flex-wrap: wrap ;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.title {    
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+}
+
+.sub-title {
+    font-family: 'Avant Garde';
+    color:$DARK-GREY;
+    font-weight: bolder;
+    
+}
+
+.cross-line {
+    height: 2px;
+    width: 100%;
+    background: $MAIN-COLOR;
+    margin: 15px;
 }
