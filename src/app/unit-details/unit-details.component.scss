@@ -25,6 +25,16 @@ li{
     font-size: .8rem;
 }
 
+ul.dots li::before {
+    content: "\2022";
+    color: $MAIN-COLOR;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+
+  }
+
 .breadcrumbs li:not(:last-child)::after {
     position: relative;
     margin: 0 .75rem;
@@ -58,4 +68,34 @@ a {
     top:15px;
     left:5px;
     
+}
+
+.left-bar {
+    border-left: 2pt dotted $MAIN-COLOR;
+    padding:10px;
+}
+
+.img-container > img {
+    width: 100%;
+    max-height: 700px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+.container {
+  width: 75%;
+  margin: 3rem auto;
+}
+.orbit-bullets button {
+  border-radius: 0;
+  width: 5rem;
+  height: 5rem;
+}
+.thumbnail {
+  margin-bottom: 0;
+  border: 2px solid rgba(0, 0, 0, .2);
+}
+.orbit-previous:hover, .orbit-next:hover, .orbit-previous:focus, .orbit-next:focus {
+  background-color: transparent;
 }

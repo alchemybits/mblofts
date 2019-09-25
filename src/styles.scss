@@ -169,6 +169,14 @@ body {
     padding: 5px;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
 .button{
     background: $MAIN-COLOR;
     color:white;    
@@ -210,3 +218,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: $MAIN-COLOR;
     margin: 15px;
 }
+
+
