@@ -15,19 +15,23 @@ import { FeaturesDetailsComponent } from './features-details/features-details.co
 import { AvailabilityComponent } from './availability/availability.component';
 import { VideoTourComponent } from './video-tour/video-tour.component';
 import { LoftComponent } from './loft/loft.component';
+import { MainPictureComponent } from './main-picture/main-picture.component';
+import { UnitDetailsComponent } from './unit-details/unit-details.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UnderConstructionComponent,
-    LoftComponent
+    LoftComponent,
     FooterComponent,
     HomeComponent,
     TopBarComponent,
     FeaturesDetailsComponent,
     AvailabilityComponent,
-    VideoTourComponent
+    VideoTourComponent,
+    MainPictureComponent,
+    UnitDetailsComponent
   ],
   imports: [
     BrowserModule,

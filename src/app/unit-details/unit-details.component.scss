@@ -1,0 +1,61 @@
+@import '../../assets/variables.scss';
+
+.features-details {
+    background: $VERY-LIGHT-GREY;
+    width:100%;
+    padding: 50px 0px 20px 0px;
+}
+
+.features-details > *{
+    color: $DARK-GREY;
+}
+
+.sub-title-f {
+    color: $DARK-GREY;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li{
+    font-size: .8rem;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    position: relative;
+    margin: 0 .75rem;
+    font-size: .75rem;
+    font-weight: bolder;
+    opacity: 1;
+    content: "|";
+    color: $MAIN-COLOR;
+}
+
+a {
+    text-decoration: none;
+    color:$DARK-GREY
+}
+
+.breadcrumbs li .active {
+    color: $LIGHT-GREY;    
+    position: relative;
+}
+
+.breadcrumbs li {
+    position: relative;
+}
+
+.breadcrumbs li a.active:after {
+    content: "\25bc";
+    color: $MAIN-COLOR;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:15px;
+    left:5px;
+    
+}
