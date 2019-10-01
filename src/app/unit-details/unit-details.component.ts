@@ -33,7 +33,6 @@ export class UnitDetailsComponent implements OnInit {
           // tslint:disable-next-line: no-string-literal
           this.floorPlan = this.loft.floorplans[0]['picture'];
 
-          console.log('pictures', this.loft.pictures[0]);
         }
       });
     });

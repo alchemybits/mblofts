@@ -49,16 +49,8 @@
                 <img src="{{floorPlan}}" alt="">
             </div>
         </div>
-        <div class="cell medium-8">
-            <div class="container flex ">
-                <div *ngFor="let info of loft.pictures; let i = index" class="m-10">
-                    <img  src="{{loft.pictures[i].picture}}" alt="" />                    
-
-                </div>
-            </div>
-            <div class="img-container">
-                <img src="{{loft.pictures[0].picture}}" alt="">
-            </div>
+        <div class="cell medium-7" style="background: yellowgreen">
+            <app-carousel [pictures]="loft.pictures"></app-carousel>
         </div>
 
     </div>

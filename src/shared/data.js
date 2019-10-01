@@ -315,24 +315,24 @@ export let data =
             ],
             "pictures": [
                 {
-                    "id": 0,
-                    "picture": "http://placehold.it/32x32"
+                    "id": 5,
+                    "picture": "http://placehold.it/500x500?text=A"
                 },
                 {
                     "id": 1,
-                    "picture": "http://placehold.it/32x32"
+                    "picture": "http://placehold.it/600x600?text=B"
                 },
                 {
                     "id": 2,
-                    "picture": "http://placehold.it/32x32"
+                    "picture": "http://placehold.it/700x700?text=C"
                 },
                 {
                     "id": 3,
-                    "picture": "http://placehold.it/32x32"
+                    "picture": "http://placehold.it/800x800?text=D"
                 },
                 {
                     "id": 4,
-                    "picture": "http://placehold.it/32x32"
+                    "picture": "http://placehold.it/900x900?text=E"
                 }
             ],
             "title": "DEVILTOE",

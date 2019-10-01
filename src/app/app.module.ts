@@ -17,6 +17,7 @@ import { VideoTourComponent } from './video-tour/video-tour.component';
 import { LoftComponent } from './loft/loft.component';
 import { MainPictureComponent } from './main-picture/main-picture.component';
 import { UnitDetailsComponent } from './unit-details/unit-details.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { UnitDetailsComponent } from './unit-details/unit-details.component';
     AvailabilityComponent,
     VideoTourComponent,
     MainPictureComponent,
-    UnitDetailsComponent
+    UnitDetailsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
