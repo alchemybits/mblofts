@@ -1,0 +1,90 @@
+@import '../../assets/variables.scss';
+
+.thumbnail {
+    max-width: 100px;
+    min-width: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100px;
+    margin: 10px 1px 10px 1px;
+}
+
+.thumbnail > img {
+    width: 100%;
+}
+
+.thumbnails {
+    width: 100%;  
+    overflow: hidden;  
+    position: relative;
+}
+
+.thumbnail:hover::after{
+    content: "";
+    position: absolute;
+    top: 10px;    
+    width: 101px;
+    margin-left: -4px;
+    margin-top: 0px;
+    overflow: hidden;
+    height: 84%;
+    background: rgba(0,0,0,0.5);
+    display: block;
+
+}
+
+.carousel-container {
+    width: 100%;
+}
+
+.arrow {
+    font-size: 4rem;
+    color:white;
+    margin-left:10px;
+    position: absolute;
+}
+
+.arrow-left {
+    left:0;
+}
+
+.arrow-right {
+    right:0;
+}
+
+.tcontainer {
+    overflow: hidden;
+}
+
+.leforrow {
+    position: absolute;
+    top:50%;
+    left:5%;
+    opacity: .7;
+}
+
+.rigorrow {
+    position: absolute;
+    top:50%;
+    right:5%;
+    opacity: .7;
+}
+
+.selected-picture > img {
+    margin:10px;
+    width: 100%;
+    max-height: 700px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.tcontainer :nth-child(3){
+    border: 2pt solid $MAIN-COLOR;
+}
+
+// .tcontainer :nth-child(1) { order: 2; }
+// .tcontainer :nth-child(2) { order: 1; }
+// .tcontainer :nth-child(3) { order: 1; }
+// .tcontainer :nth-child(4) { order: 3; }
+// .tcontainer :nth-child(5) { order: 3; }

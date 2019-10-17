@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoftsService } from '../lofts.service';
 
 @Component({
   selector: 'app-top-bar',
@@ -7,13 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
 
-  constructor() { }
+  ids: number[] = [];
 
-  ngOnInit() {
+  constructor(private loftService: LoftsService) { }
+
+ async ngOnInit() {
+    await this.loftService.getLoftIDs().then( item => {
+      return this.ids = item;
+    });
+
+    this.showMenu();
   }
 
   showMenu() {
-    console.log('yei');
+    console.log('yei', this.ids);
   }
 
 }

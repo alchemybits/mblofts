@@ -14,18 +14,34 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { FeaturesDetailsComponent } from './features-details/features-details.component';
 import { AvailabilityComponent } from './availability/availability.component';
 import { VideoTourComponent } from './video-tour/video-tour.component';
+import { LoftComponent } from './loft/loft.component';
+import { MainPictureComponent } from './main-picture/main-picture.component';
+import { UnitDetailsComponent } from './unit-details/unit-details.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { ContactComponent } from './contact/contact.component';
+import { DarkBlockComponent } from './dark-block/dark-block.component';
+import { LightBlockComponent } from './light-block/light-block.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UnderConstructionComponent,
+    LoftComponent,
     FooterComponent,
     HomeComponent,
     TopBarComponent,
     FeaturesDetailsComponent,
     AvailabilityComponent,
-    VideoTourComponent
+    VideoTourComponent,
+    MainPictureComponent,
+    UnitDetailsComponent,
+    CarouselComponent,
+    LifestyleComponent,
+    ContactComponent,
+    DarkBlockComponent,
+    LightBlockComponent
   ],
   imports: [
     BrowserModule,

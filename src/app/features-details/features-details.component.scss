@@ -22,7 +22,7 @@ ul {
 }
 
 li{
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 ul li::before {
@@ -35,3 +35,6 @@ ul li::before {
 
   }
 
+  .no-margins {
+      margin: 0px;
+  }

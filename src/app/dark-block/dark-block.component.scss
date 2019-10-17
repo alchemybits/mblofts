@@ -1,0 +1,24 @@
+@import '../../assets/variables.scss';
+
+.dark-details {
+    background: $DARK-GREY;
+    width:100%;
+    padding: 50px 0px 20px 0px;
+}
+
+.dark-details > *{
+    color: $VERY-LIGHT-GREY;
+}
+
+.sub-title-f {
+    color: $VERY-LIGHT-GREY;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.content {
+    padding: 30px;
+    text-align: justify;
+    padding: auto;
+}
+

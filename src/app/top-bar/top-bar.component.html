@@ -6,20 +6,14 @@
             <div>
                 <nav class="dropdownmenu">
                     <ul>
-                      <li><a href="" class="top-menu-buttons">HOME</a></li>                      
-                      <li><a href="#" class="top-menu-buttons">LOFTS</a>
+                      <li><a [routerLink]="['/home']"class="top-menu-buttons">HOME</a></li>                      
+                      <li><a [routerLink]="['/home']" class="top-menu-buttons">LOFTS</a>
                         <ul id="submenu">
-                          <li><a href="">105</a></li>
-                          <li><a href="">106</a></li>
-                          <li><a href="">107</a></li>
-                          <li><a href="">108</a></li>
-                          <li><a href="">109</a></li>
-                          <li><a href="">201</a></li>
-                          <li><a href="">202</a></li>
+                          <li *ngFor="let id of ids"><a [routerLink]="['/loft/'+ id]">{{id}}</a></li>
                         </ul>
                       </li>
-                      <li><a href="" class="top-menu-buttons">LYFESTYLE</a></li>
-                      <li><a href="" class="top-menu-buttons">CONTACT</a></li>
+                      <li><a [routerLink]="['/lifestyle']" class="top-menu-buttons">LYFESTYLE</a></li>
+                      <li><a [routerLink]="['/contact']" class="top-menu-buttons">CONTACT</a></li>
                     </ul>
                   </nav>
             </div>
