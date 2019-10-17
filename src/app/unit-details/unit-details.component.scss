@@ -99,3 +99,10 @@ a {
 .orbit-previous:hover, .orbit-next:hover, .orbit-previous:focus, .orbit-next:focus {
   background-color: transparent;
 }
+
+.number {
+    text-align: center;
+    font-size: 6em;
+    color: $MAIN-COLOR;
+    font-family: 'Avant Garde';
+}

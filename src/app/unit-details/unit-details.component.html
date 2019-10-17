@@ -15,13 +15,13 @@
     </div>
     <br>
     <div class="grid-x">
-        <div class="cell medium-4">
-            <h1>{{id}}</h1>
+        <div class="cell medium-4 flex flex-justify-center flex-align-center">
+            <h1 class="number">{{id}}</h1>
         </div>
         <div class="grid-x cell medium-8">
             <div class="cell medium-8">
                 <ul class="breadcrumbs">
-                    <li *ngFor="let info of loft.characteristics"><a >{{info}}</a></li>                
+                    <li *ngFor="let info of loft.characteristics"><a class="sub-title">{{info}}</a></li>                
                 </ul>
                 <p class="pr-10">
                     {{loft.description}}
@@ -29,7 +29,7 @@
             </div>
             <div class="cell medium-4 left-bar">
                 <div >
-                    <h4>HIGHLIGHTS</h4>
+                    <h4 class="sub-title">HIGHLIGHTS</h4>
                     <ul class="dots">
                         <li *ngFor="let info of loft.highlights"><a >{{info}}</a></li>                
                     </ul>
@@ -40,16 +40,17 @@
     </div>
 
     <div class="grid-x">
-        <div class="cell medium-4">
-            <h4>FLOORPLANS</h4>
-            <ul class="breadcrumbs">
+        <div class="cell medium-4 align-text-center">
+            <h4 class="sub-title">FLOORPLAN LAYOUT</h4>
+            <ul class="breadcrumbs flex flex-justify-center flex-align-center">
                 <li *ngFor="let info of loft.floorplans; let i = index"><a (click)="showPicture(i)">FLOOR {{info.id + 1}}</a></li>                
             </ul>
             <div class="img-container">
                 <img src="{{floorPlan}}" alt="">
             </div>
         </div>
-        <div class="cell medium-7" style="background: yellowgreen">
+        <!-- style="background: yellowgreen" -->
+        <div class="cell medium-7" > 
             <app-carousel [pictures]="loft.pictures"></app-carousel>
         </div>
 

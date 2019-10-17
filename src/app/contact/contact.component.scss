@@ -1,0 +1,109 @@
+@import '../../assets/variables.scss';
+
+.main {
+    width: 100vw;    
+    display: grid;
+    align-content: stretch;	
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:       
+    "body body body body"
+    "body body body body";    
+}
+
+.body {
+    grid-area: body;    
+    background: url(../../assets/images/rendering.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    padding:30px;
+}
+
+.icon {
+    height: 25px;    
+}
+
+.icon-small{
+    height: 18px;
+    margin-right:5px;
+}
+
+.body > * {
+    position: relative;    
+    z-index:9;
+}
+
+
+
+.header{    
+    color:white;    
+    text-align: center;
+    text-shadow: 0.01em 0.01em 0.01em grey;
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+    
+}
+
+.em {
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.superTitle{
+    text-shadow: 0.01em 0.01em 0.01em grey;
+    color:white;
+    font-family: 'Avant Garde';
+    font-size: 5.5rem;
+}
+
+
+.bars {
+    text-shadow: 0.01em 0.01em 0.01em grey;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width: 100%;       
+    color:#D1D2D3;
+    border-top: 1pt solid black;
+    border-bottom: 1pt solid black;
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 0.1em;
+    font-weight: lighter;
+}
+
+::ng-deep .footer-uc > div {
+    height: 100%;
+}
+
+.footer-uc {
+    grid-area: footer;
+}
+
+.contact-p {
+    color: $LIGHT-GREY;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: 'Avant Garde';
+}
+
+.half-wide {
+    width: 50%;
+    margin: auto;
+}
+
+.dark-button{
+    background: black;
+    color: white;
+    width:20%;
+}
+
+i {
+    color:white;
+    width: 45%;
+    font-family: 'Times New Roman', Times, serif
+}

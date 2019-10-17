@@ -18,6 +18,10 @@ import { LoftComponent } from './loft/loft.component';
 import { MainPictureComponent } from './main-picture/main-picture.component';
 import { UnitDetailsComponent } from './unit-details/unit-details.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { ContactComponent } from './contact/contact.component';
+import { DarkBlockComponent } from './dark-block/dark-block.component';
+import { LightBlockComponent } from './light-block/light-block.component';
 
 
 @NgModule({
@@ -33,7 +37,11 @@ import { CarouselComponent } from './carousel/carousel.component';
     VideoTourComponent,
     MainPictureComponent,
     UnitDetailsComponent,
-    CarouselComponent
+    CarouselComponent,
+    LifestyleComponent,
+    ContactComponent,
+    DarkBlockComponent,
+    LightBlockComponent
   ],
   imports: [
     BrowserModule,

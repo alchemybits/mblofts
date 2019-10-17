@@ -1,19 +1,22 @@
 <div class="carousel-container flex flex-column">
     <div class="thumbnails">
-        <div class="leforrow flex flex-align-center flex-justify-center" (click)="moveLeft()">
-            <i class="material-icons arrow ">arrow_back_ios</i>
+        <div class="leforrow flex flex-align-center flex-justify-center pointer" >
+            <i class="material-icons arrow " (click)="previous(pictures)">arrow_back_ios</i>
         </div>
         <div class="f10 flex tcontainer flex-justify-center" >
-            <div class="thumbnail" *ngFor="let pic of pictures; let i = index" [style.order]="pic.id">        
+            <div class="thumbnail pointer" *ngFor="let pic of pictures; let i = index" (click)="jump(i)">        
                 <img [src]="pic.picture" />
             </div>
         </div>        
-        <div class="rigorrow flex flex-align-center flex-justify-center">
-            <i class="material-icons arrow">arrow_forward_ios</i>
+        <div class="rigorrow flex flex-align-center flex-justify-center pointer">
+            <i class="material-icons arrow" (click)="next(pictures)">arrow_forward_ios</i>
         </div>
     </div>
     <div class="selected-picture">
-
+        <img src="{{selectedPicture}}" alt="">
+    </div>
+    <div class="flex flex-justify-center flex-align-center">
+        <div class="button">APPLY NOW</div>
     </div>
 
 
