@@ -59,6 +59,17 @@ a {
     position: relative;
 }
 
+.breadcrumbs li a.activef:after {
+    content: "\25bc";
+    color: $MAIN-COLOR;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:15px;
+    left:-22px;
+    
+}
+
 .breadcrumbs li a.active:after {
     content: "\25bc";
     color: $MAIN-COLOR;

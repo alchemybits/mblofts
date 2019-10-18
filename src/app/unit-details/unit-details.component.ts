@@ -13,6 +13,7 @@ export class UnitDetailsComponent implements OnInit {
   loft: Loft = new Loft();
   ids: number[];
   floorPlan: string;
+  hightlightStatus: Array<boolean> = [true, false];
 
   constructor(private route: ActivatedRoute, private loftService: LoftsService) {
     this.id = '28';
@@ -41,9 +42,12 @@ export class UnitDetailsComponent implements OnInit {
 
   }
 
-  showPicture(index) {
+  showPicture(index, e) {
     // tslint:disable-next-line: no-string-literal
     this.floorPlan = this.loft.floorplans[index]['picture'];
+
+    index === 0 ? this.hightlightStatus = [true, false] : this.hightlightStatus = [false, true];
+
   }
 
 }

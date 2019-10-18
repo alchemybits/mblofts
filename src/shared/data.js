@@ -6,11 +6,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/101_201.JPG"
                 }
             ],
             "pictures": [
@@ -48,7 +44,7 @@ export let data =
                 "Lorem",
                 "laboris"
             ],
-            "description": "Laboris culpa et dolore incididunt sunt pariatur ea sunt dolore culpa id est adipisicing mollit. Magna excepteur esse est elit. Veniam amet ipsum minim tempor ut dolore et.\r\n"
+            "description": "Two bedroom, 2 bath end loft with 1,185 square feet of living space and 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, microwave, and even a wine fridge! Master suite features a large walk-in closet, ensuite bath with dual vanity sinks, and separate toilet room. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7230b2b64c75fe8eb",
@@ -56,11 +52,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -98,7 +90,7 @@ export let data =
                 "ut",
                 "ea"
             ],
-            "description": "Et enim ea quis minim occaecat velit cupidatat officia aliqua qui qui ut. Irure exercitation exercitation labore non do minim velit et irure proident non. Adipisicing amet laborum cupidatat dolore cillum. Mollit enim ex pariatur irure in labore ut culpa tempor mollit aute culpa labore laborum. Officia reprehenderit sint mollit do eu anim anim esse excepteur. Ex qui amet enim consequat et commodo aute.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,131 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7a80e0e863ff47ad9",
@@ -106,11 +98,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -148,7 +136,7 @@ export let data =
                 "exercitation",
                 "deserunt"
             ],
-            "description": "Ad nostrud sit sunt voluptate excepteur est laboris. Dolore id exercitation duis exercitation adipisicing fugiat tempor laboris laborum et. Ad cillum ad officia consequat sit sit nulla aute velit quis irure consectetur id qui.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,131 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede784954f69a5f60310",
@@ -156,11 +144,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -198,7 +182,7 @@ export let data =
                 "dolore",
                 "nisi"
             ],
-            "description": "Proident aute do occaecat ipsum ullamco mollit labore commodo est. Est in proident ipsum laboris irure consectetur enim sit commodo tempor ullamco reprehenderit. Esse irure fugiat occaecat mollit eiusmod tempor labore. Reprehenderit aute excepteur anim Lorem sint cupidatat. Culpa reprehenderit ex est nisi enim proident eiusmod do ad.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,131 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede73fc5a9ddfe5941d6",
@@ -206,11 +190,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -248,7 +228,7 @@ export let data =
                 "quis",
                 "id"
             ],
-            "description": "Exercitation minim labore qui voluptate ea voluptate. Irure dolore voluptate excepteur fugiat nulla ea dolor minim magna culpa et sunt. Anim veniam ad adipisicing fugiat mollit laboris culpa cillum adipisicing dolore. Est anim dolore duis aliqua irure est consequat in. In exercitation sint dolor veniam pariatur minim.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,131 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7a5b6f014c11b3943",
@@ -256,11 +236,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/101_201.JPG"
                 }
             ],
             "pictures": [
@@ -298,7 +274,7 @@ export let data =
                 "consequat",
                 "velit"
             ],
-            "description": "Duis officia occaecat est aliqua quis ullamco id enim ut magna dolore culpa quis. Ipsum minim cupidatat id duis ex ullamco reprehenderit pariatur anim veniam. In anim culpa commodo dolor minim laboris cillum consequat. Officia tempor dolore irure dolore do eiusmod est minim anim proident Lorem ipsum aute. Est ad tempor enim incididunt dolor tempor velit Lorem sit in fugiat mollit aute. Deserunt eu excepteur ut mollit dolor culpa fugiat officia esse aute eu occaecat.\r\n"
+            "description": "Two bedroom, 2 bath end loft with 1,131 square feet of living space and 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, microwave, and even a wine fridge! Master suite features a large walk-in closet, ensuite bath with dual vanity sinks, and separate toilet room. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7ba971b7d29e63b15",
@@ -306,11 +282,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x91"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -348,7 +320,7 @@ export let data =
                 "nostrud",
                 "excepteur"
             ],
-            "description": "Magna exercitation eu eu reprehenderit officia ullamco. Esse do officia ad adipisicing non enim veniam proident nulla exercitation. In adipisicing velit tempor fugiat in sit qui cillum proident reprehenderit esse consectetur qui enim. Ea in cillum enim sunt culpa reprehenderit excepteur sunt nisi ullamco exercitation. Commodo aute aliqua magna occaecat eu dolore amet eiusmod nulla quis deserunt ex laboris. Tempor ut laborum ut quis laboris anim. Dolore eu aliquip Lorem minim anim Lorem incididunt officia minim et sit.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,113 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7ba971b7d29e63b15",
@@ -356,11 +328,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x91"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -398,7 +366,7 @@ export let data =
                 "nostrud",
                 "excepteur"
             ],
-            "description": "Magna exercitation eu eu reprehenderit officia ullamco. Esse do officia ad adipisicing non enim veniam proident nulla exercitation. In adipisicing velit tempor fugiat in sit qui cillum proident reprehenderit esse consectetur qui enim. Ea in cillum enim sunt culpa reprehenderit excepteur sunt nisi ullamco exercitation. Commodo aute aliqua magna occaecat eu dolore amet eiusmod nulla quis deserunt ex laboris. Tempor ut laborum ut quis laboris anim. Dolore eu aliquip Lorem minim anim Lorem incididunt officia minim et sit.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,113 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7ba971b7d29e63b15",
@@ -406,11 +374,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x91"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -448,7 +412,7 @@ export let data =
                 "nostrud",
                 "excepteur"
             ],
-            "description": "Magna exercitation eu eu reprehenderit officia ullamco. Esse do officia ad adipisicing non enim veniam proident nulla exercitation. In adipisicing velit tempor fugiat in sit qui cillum proident reprehenderit esse consectetur qui enim. Ea in cillum enim sunt culpa reprehenderit excepteur sunt nisi ullamco exercitation. Commodo aute aliqua magna occaecat eu dolore amet eiusmod nulla quis deserunt ex laboris. Tempor ut laborum ut quis laboris anim. Dolore eu aliquip Lorem minim anim Lorem incididunt officia minim et sit.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,113 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7ba971b7d29e63b15",
@@ -456,11 +420,7 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
-                },
-                {
-                    "id": 1,
-                    "picture": "http://placehold.it/32x91"
+                    "picture": "../assets/images/102-205.JPG"
                 }
             ],
             "pictures": [
@@ -498,7 +458,7 @@ export let data =
                 "nostrud",
                 "excepteur"
             ],
-            "description": "Magna exercitation eu eu reprehenderit officia ullamco. Esse do officia ad adipisicing non enim veniam proident nulla exercitation. In adipisicing velit tempor fugiat in sit qui cillum proident reprehenderit esse consectetur qui enim. Ea in cillum enim sunt culpa reprehenderit excepteur sunt nisi ullamco exercitation. Commodo aute aliqua magna occaecat eu dolore amet eiusmod nulla quis deserunt ex laboris. Tempor ut laborum ut quis laboris anim. Dolore eu aliquip Lorem minim anim Lorem incididunt officia minim et sit.\r\n"
+            "description": "Two bedroom, 2 bath loft with 1,113 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops, large kitchen island, and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, and a private balcony with city and mountain views. \r\n"
         },
         {
             "id": "5d8aede7ba971b7d29e63b15",
@@ -506,11 +466,11 @@ export let data =
             "floorplans": [
                 {
                     "id": 0,
-                    "picture": "http://placehold.it/32x90"
+                    "picture": "../assets/images/206-01.JPG"
                 },
                 {
                     "id": 1,
-                    "picture": "http://placehold.it/32x91"
+                    "picture": "../assets/images/206-02.JPG"
                 }
             ],
             "pictures": [
@@ -548,6 +508,6 @@ export let data =
                 "nostrud",
                 "excepteur"
             ],
-            "description": "Magna exercitation eu eu reprehenderit officia ullamco. Esse do officia ad adipisicing non enim veniam proident nulla exercitation. In adipisicing velit tempor fugiat in sit qui cillum proident reprehenderit esse consectetur qui enim. Ea in cillum enim sunt culpa reprehenderit excepteur sunt nisi ullamco exercitation. Commodo aute aliqua magna occaecat eu dolore amet eiusmod nulla quis deserunt ex laboris. Tempor ut laborum ut quis laboris anim. Dolore eu aliquip Lorem minim anim Lorem incididunt officia minim et sit.\r\n"
+            "description": "Two bedroom, 2.5 bath townhome style unit with 1,286 square feet of living space & 9 1/2 foot ceilings. Brand new contemporary living with secure building access, elevator, and underground parking for two cars side-by-side. Gourmet kitchen with quartz countertops and stainless steel appliances including oven/range, refrigerator, dishwasher, and microwave. Master suite with large walk-in closet and an ensuite bath with dual vanity sinks. Second bedroom also has an ensuite bath. Loft includes built in washer and dryer, the latest barn door closet doors, recessed lighting, extra large custom windows for natural lighting, air conditioning, a private balcony with city and mountain views off the living room, and it’s own turf grass side yard. \r\n"
         }
     ]

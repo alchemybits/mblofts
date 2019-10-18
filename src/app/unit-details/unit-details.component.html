@@ -43,7 +43,7 @@
         <div class="cell medium-4 align-text-center">
             <h4 class="sub-title">FLOORPLAN LAYOUT</h4>
             <ul class="breadcrumbs flex flex-justify-center flex-align-center">
-                <li *ngFor="let info of loft.floorplans; let i = index"><a (click)="showPicture(i)">FLOOR {{info.id + 1}}</a></li>                
+                <li *ngFor="let info of loft.floorplans; let i = index" ><a [class.activef]="hightlightStatus[i]" (click)="showPicture(i,$event)">FLOOR {{info.id + 1}}</a></li>
             </ul>
             <div class="img-container">
                 <img src="{{floorPlan}}" alt="">
