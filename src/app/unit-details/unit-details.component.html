@@ -47,11 +47,15 @@
             </ul>
             <div class="img-container">
                 <img src="{{floorPlan}}" alt="">
+                <div>
+                    <app-circle (click)="carousel.jump(0)"></app-circle>
+
+                </div>
             </div>
         </div>
         <!-- style="background: yellowgreen" -->
         <div class="cell medium-7" > 
-            <app-carousel [pictures]="loft.pictures"></app-carousel>
+            <app-carousel #carousel [pictures]="loft.pictures"></app-carousel>
         </div>
 
     </div>

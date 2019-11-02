@@ -1,0 +1,8 @@
+@import "../../assets/variables.scss";
+
+.circle {
+    border-radius: 50%;
+    background: $MAIN-COLOR;
+    width: 20px;
+    height:20px;
+}

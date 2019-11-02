@@ -474,25 +474,98 @@ export let data =
                 }
             ],
             "pictures": [
-                {
-                    "id": 5,
-                    "picture": "http://placehold.it/500x500?text=A"
-                },
+                
                 {
                     "id": 1,
-                    "picture": "http://placehold.it/600x600?text=B"
+                    "picture": "../assets/images/Loft206/206_01.jpg"
                 },
                 {
                     "id": 2,
-                    "picture": "http://placehold.it/700x700?text=C"
+                    "picture": "../assets/images/Loft206/206_02.jpg"
                 },
                 {
                     "id": 3,
-                    "picture": "http://placehold.it/800x800?text=D"
+                    "picture": "../assets/images/Loft206/206_03.jpg"
                 },
                 {
                     "id": 4,
-                    "picture": "http://placehold.it/900x900?text=E"
+                    "picture": "../assets/images/Loft206/206_06.jpg"
+                },
+                {
+                    "id": 5,
+                    "picture": "../assets/images/Loft206/206_13.jpg"
+                },
+                {
+                    "id": 6,
+                    "picture": "../assets/images/Loft206/206_27.jpg"
+                },
+                {
+                    "id": 7,
+                    "picture": "../assets/images/Loft206/206_29.jpg"
+                },
+                {
+                    "id": 8,
+                    "picture": "../assets/images/Loft206/206_34.jpg"
+                },
+                {
+                    "id": 9,
+                    "picture": "../assets/images/Loft206/206_46.jpg"
+                },
+                {
+                    "id": 10,
+                    "picture": "../assets/images/Loft206/206_50.jpg"
+                },
+                {
+                    "id": 11,
+                    "picture": "../assets/images/Loft206/206_51.jpg"
+                },
+                {
+                    "id": 12,
+                    "picture": "../assets/images/Loft206/206_54.jpg"
+                },
+                {
+                    "id": 13,
+                    "picture": "../assets/images/Loft206/206_59.jpg"
+                },
+                {
+                    "id": 14,
+                    "picture": "../assets/images/Loft206/206_60.jpg"
+                },
+                {
+                    "id": 15,
+                    "picture": "../assets/images/Loft206/206_61.jpg"
+                },
+                {
+                    "id": 16,
+                    "picture": "../assets/images/Loft206/206_62.jpg"
+                },
+                {
+                    "id": 17,
+                    "picture": "../assets/images/Loft206/206_65.jpg"
+                },
+                {
+                    "id": 18,
+                    "picture": "../assets/images/Loft206/206_68.jpg"
+                },
+                {
+                    "id": 19,
+                    "picture": "../assets/images/Loft206/206_69.jpg"
+                },
+                {
+                    "id": 20,
+                    "picture": "../assets/images/Loft206/206_73.jpg"
+                },
+                {
+                    "id": 21,
+                    "picture": "../assets/images/Loft206/206_74.jpg"
+                },
+                {
+                    "id": 22,
+                    "picture": "../assets/images/Loft206/206_79.jpg"
+                },
+                {
+                    "id": 23,
+                    "picture": "../assets/images/Loft206/206_82.jpg"
                 }
             ],
             "title": "DEVILTOE",

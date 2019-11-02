@@ -1,5 +1,9 @@
 @import '../../assets/variables.scss';
 
+.img-container {
+    position: relative;
+}
+
 .features-details {
     background: $VERY-LIGHT-GREY;
     width:100%;

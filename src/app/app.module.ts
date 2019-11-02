@@ -22,6 +22,7 @@ import { LifestyleComponent } from './lifestyle/lifestyle.component';
 import { ContactComponent } from './contact/contact.component';
 import { DarkBlockComponent } from './dark-block/dark-block.component';
 import { LightBlockComponent } from './light-block/light-block.component';
+import { CircleComponent } from './circle/circle.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { LightBlockComponent } from './light-block/light-block.component';
     LifestyleComponent,
     ContactComponent,
     DarkBlockComponent,
-    LightBlockComponent
+    LightBlockComponent,
+    CircleComponent
   ],
   imports: [
     BrowserModule,
