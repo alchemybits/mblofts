@@ -2,6 +2,7 @@
 
 .img-container {
     position: relative;
+    display: inline-block;
 }
 
 .features-details {
@@ -121,3 +122,12 @@ a {
     color: $MAIN-COLOR;
     font-family: 'Avant Garde';
 }
+  
+  .child {
+    display: flex;
+  }
+  
+  .child div {
+    flex-grow: 1;
+    width: 0;
+  }

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges, SimpleChange } from '@angular/core';
 import { of } from 'rxjs';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'app-carousel',
@@ -11,15 +12,26 @@ export class CarouselComponent implements OnInit, OnChanges {
   @Input() pictures: any[];
 
   selectedPicture = '0';
-  picturePosition = 2;
+  picturePosition = 1;
+  half = 0;
   constructor() { }
 
   ngOnInit() {
 
+
+
+  }
+
+  getPositionInArrayById(id) {
+    console.log('array of pictures', this.pictures);
+    const object = _.findIndex(this.pictures, ['id', id]);
+    this.jump(object);
+
+    console.log('this is pobject with id = ', object);
   }
 
   jump(index) {
-    let ans = this.picturePosition - index;
+    let ans = this.half - index;
     if (ans > 0) {
       for (let x = 0; x < ans; x++) {
         this.previous(this.pictures);
@@ -31,6 +43,7 @@ export class CarouselComponent implements OnInit, OnChanges {
         this.next(this.pictures);
       }
     }
+    // this.selectedPicture = this.pictures[index].picture;
   }
 
   next(arr) {
@@ -43,7 +56,7 @@ export class CarouselComponent implements OnInit, OnChanges {
       }
     }
 
-    this.selectedPicture = arr[2].picture;
+    this.selectedPicture = arr[this.half].picture;
   }
 
   previous(arr) {
@@ -56,7 +69,7 @@ export class CarouselComponent implements OnInit, OnChanges {
       }
     }
 
-    this.selectedPicture = arr[2].picture;
+    this.selectedPicture = arr[this.half].picture;
   }
 
   ngOnChanges(changes: SimpleChanges) {
@@ -65,7 +78,11 @@ export class CarouselComponent implements OnInit, OnChanges {
     console.log('got item: ', currentItem.currentValue);
     if (currentItem.currentValue) {
       console.log('REAL VALUE HJERE!', currentItem.currentValue);
-      this.selectedPicture = currentItem.currentValue[2].picture;
+      this. half = Math.round(this.pictures.length / 2 );
+      this.half--;
+      console.log('thius is half', this.half);
+
+      this.selectedPicture = currentItem.currentValue[this.half].picture;
     }
 
   }

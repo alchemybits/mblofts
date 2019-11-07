@@ -4,7 +4,7 @@
             <i class="material-icons arrow " (click)="previous(pictures)">arrow_back_ios</i>
         </div>
         <div class="f10 flex tcontainer flex-justify-center" >
-            <div class="thumbnail pointer" *ngFor="let pic of pictures; let i = index" (click)="jump(i)">        
+            <div class="thumbnail pointer" *ngFor="let pic of pictures; let i = index" (click)="jump(i)" [ngClass]="{'selected': i === half}">        
                 <img [src]="pic.picture" />
             </div>
         </div>        

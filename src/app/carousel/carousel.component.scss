@@ -80,8 +80,13 @@
     overflow: hidden;
 }
 
-.tcontainer :nth-child(3){
-    border: 2pt solid $MAIN-COLOR;
+.selected{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 3pt solid $MAIN-COLOR;
+    overflow: hidden;
+    z-index:99999;
 }
 
 // .tcontainer :nth-child(1) { order: 2; }

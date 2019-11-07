@@ -45,11 +45,10 @@
             <ul class="breadcrumbs flex flex-justify-center flex-align-center">
                 <li *ngFor="let info of loft.floorplans; let i = index" ><a [class.activef]="hightlightStatus[i]" (click)="showPicture(i,$event)">FLOOR {{info.id + 1}}</a></li>
             </ul>
-            <div class="img-container">
-                <img src="{{floorPlan}}" alt="">
+            <div class="img-container wrapper">
+                <img class="child" src="{{floorPlan.picture}}" alt="">
                 <div>
-                    <app-circle (click)="carousel.jump(0)"></app-circle>
-
+                    <app-circle *ngFor="let circle of floorPlan.map" (click)="carousel.getPositionInArrayById(circle.id)" [top]="circle.top" [bottom]="circle.bottom" [left]="circle.left" [right]="circle.right"></app-circle>
                 </div>
             </div>
         </div>
