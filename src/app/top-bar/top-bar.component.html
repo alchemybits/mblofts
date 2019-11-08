@@ -7,12 +7,12 @@
                 <nav class="dropdownmenu">
                     <ul>
                       <li><a [routerLink]="['/home']"class="top-menu-buttons">HOME</a></li>                      
-                      <li><a [routerLink]="['/home']" class="top-menu-buttons">LOFTS</a>
+                      <li><a class="top-menu-buttons">LOFTS</a>
                         <ul id="submenu">
                           <li *ngFor="let id of ids"><a [routerLink]="['/loft/'+ id]">{{id}}</a></li>
                         </ul>
                       </li>
-                      <li><a [routerLink]="['/lifestyle']" class="top-menu-buttons">LYFESTYLE</a></li>
+                      <li><a [routerLink]="['/lifestyle']" class="top-menu-buttons">LIFESTYLE</a></li>
                       <li><a [routerLink]="['/contact']" class="top-menu-buttons">CONTACT</a></li>
                     </ul>
                   </nav>

@@ -39,8 +39,8 @@
         
     </div>
 
-    <div class="grid-x">
-        <div class="cell medium-4 align-text-center">
+    <div class="flex flex-align-center">
+        <div class="f2 align-text-center matchHeight">
             <h4 class="sub-title">FLOORPLAN LAYOUT</h4>
             <ul class="breadcrumbs flex flex-justify-center flex-align-center">
                 <li *ngFor="let info of loft.floorplans; let i = index" ><a [class.activef]="hightlightStatus[i]" (click)="showPicture(i,$event)">FLOOR {{info.id + 1}}</a></li>
@@ -54,9 +54,10 @@
             </div>
         </div>
         <!-- style="background: yellowgreen" -->
-        <div class="cell medium-7" > 
+        <div class="f3" > 
             <app-carousel #carousel [pictures]="loft.pictures"></app-carousel>
         </div>
+        <div class="f1"></div>
 
     </div>
 

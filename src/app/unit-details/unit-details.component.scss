@@ -117,7 +117,11 @@ a {
 
 .number {
     text-align: center;
-    font-size: 6em;
+    font-size: 8em;
     color: $MAIN-COLOR;
     font-family: 'Avant Garde';
+}
+
+.matchHeight {
+    height:100%;
 }
